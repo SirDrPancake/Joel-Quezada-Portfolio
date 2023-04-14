@@ -1,6 +1,12 @@
-    nav {
+   body {
+background-color: lightblue;
+
+   }
+   nav {
         display: flex;
         align-items: center;
+        justify-content: space-between;
+
       }
 
       nav a {
@@ -14,7 +20,7 @@
         color: #333;
       }
 
-      /* Add styles for the subheader */
+     
       .subheader {
         background-color: grey;
         color: #fff;
@@ -23,7 +29,7 @@
         
       }
 
-      /* Add styles for the sections */
+      
       section {
         display: flex;
         justify-content: space-between;
@@ -37,18 +43,19 @@
         margin-right: 20px;
       }
 
-      /* Add styles for the contact info */
+      
       .contact-info {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        display:inline-block;
+        list-style: none;
+        padding: 10px 25px;
+        
       }
 
       .contact-info a {
         color: rgb(190, 7, 190);
         text-decoration: none;
         margin-bottom: 10px;
-        justify-content: space-between;
+        
       }
 
       .contact-info a:hover {
