@@ -1,7 +1,12 @@
-   body {
+    body {
 background-color: lightblue;
 
-   }
+      }
+
+    .about-me{
+
+
+    }
    nav {
         display: flex;
         align-items: center;
@@ -29,6 +34,10 @@ background-color: lightblue;
         
       }
 
+      h2{
+        color:gray;
+        margin: 20px 0px 20px;
+      }
       
       section {
         display: flex;
@@ -45,10 +54,12 @@ background-color: lightblue;
 
       
       .contact-info {
-        display:inline-block;
-        list-style: none;
-        padding: 10px 25px;
-        
+        width: 50%;
+        height: 290px;
+        display:flex;
+        align-items:center;
+        flex-direction: row;
+        justify-content:space-between;
       }
 
       .contact-info a {
