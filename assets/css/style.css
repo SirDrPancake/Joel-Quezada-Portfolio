@@ -1,0 +1,56 @@
+    nav {
+        display: flex;
+        align-items: center;
+      }
+
+      nav a {
+        color: #000000;
+        text-decoration: none;
+        padding: 10px;
+      }
+
+      nav a:hover {
+        background-color: #fff;
+        color: #333;
+      }
+
+      /* Add styles for the subheader */
+      .subheader {
+        background-color: grey;
+        color: #fff;
+        padding: 20px;
+        font-size: 24px;
+        
+      }
+
+      /* Add styles for the sections */
+      section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+      }
+
+      section img {
+        max-width: 400px;
+        max-height: 400px;
+        margin-right: 20px;
+      }
+
+      /* Add styles for the contact info */
+      .contact-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .contact-info a {
+        color: rgb(190, 7, 190);
+        text-decoration: none;
+        margin-bottom: 10px;
+        justify-content: space-between;
+      }
+
+      .contact-info a:hover {
+        text-decoration: underline;
+      }
